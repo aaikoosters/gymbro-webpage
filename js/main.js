@@ -25,8 +25,8 @@ window.onscroll = function () {
 };
 
 var navbar = document.querySelector("nav");
-var services = document.querySelector("#features");
-var sticky = services.offsetTop;
+// var services = document.querySelector("#features");
+// var sticky = services.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
